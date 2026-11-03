@@ -2,5 +2,6 @@ def add(a, b):
     return a + b
 
 def divide(a, b):
-    # 나누기 기능 구현
-    return a + b
+    if b == 0:
+        return "Error: Division by zero"
+    return a / b
